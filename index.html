@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PAP'S - Association</title>
+    <style>
+        /* Couleurs du drapeau du Sénégal */
+        :root {
+            --vert-senegal: #00853f;
+            --jaune-senegal: #fdef42;
+            --rouge-senegal: #e31b23;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: var(--vert-senegal);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--jaune-senegal);
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: var(--rouge-senegal);
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: var(--rouge-senegal);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Présentation de l'équipe */
+        .team-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            background-color: white;
+            border: 2px solid var(--vert-senegal);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        h1, h2 {
+            color: var(--vert-senegal);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur le site de PAP'S</h1>
+        <p>L'association PAP'S, engagée pour un avenir meilleur.</p>
+    </header>
+
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#team">Équipe</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de PAP'S</h2>
+        <p>PAP'S est une association qui œuvre pour le développement durable, la solidarité et l'inclusion sociale au Sénégal. 
+        Notre objectif est de promouvoir des initiatives locales visant à améliorer la qualité de vie des communautés à travers des projets éducatifs, culturels, et environnementaux.</p>
+    </section>
+
+    <section id="team">
+        <h2>Notre équipe</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="image1.jpg" alt="Membre de l'équipe 1">
+                <h3>Nom Membre 1</h3>
+                <p>Fondateur et Président</p>
+                <p>Description brève du membre de l'équipe.</p>
+            </div>
+            <div class="team-member">
+                <img src="image2.jpg" alt="Membre de l'équipe 2">
+                <h3>Nom Membre 2</h3>
+                <p>Secrétaire Général</p>
+                <p>Description brève du membre de l'équipe.</p>
+            </div>
+            <div class="team-member">
+                <img src="image3.jpg" alt="Membre de l'équipe 3">
+                <h3>Nom Membre 3</h3>
+                <p>Trésorier</p>
+                <p>Description brève du membre de l'équipe.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : contact@paps.org</p>
+        <p>Téléphone : +221 33 123 45 67</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PAP'S - Tous droits réservés</p>
+    </footer>
+
+</body>
+  </html>
+  
